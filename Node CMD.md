@@ -33,7 +33,7 @@ mkdir download_cache
 
 5️⃣ Start Node
 ````
-sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
+sudo ./pop --ram 8 --max-disk 150 --cache-dir /data --pubKey BkWtytiMTthgGUDdUEoV6bSJFyQFNpJVhBoq84bdURAK
 ```
 ````
 # Open Another Window for WSL or VPS
@@ -75,7 +75,7 @@ chmod +x pop
 
 2️⃣ Start Node
 ```
-sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
+sudo ./pop --ram 8 --max-disk 150 --cache-dir /data --pubKey BkWtytiMTthgGUDdUEoV6bSJFyQFNpJVhBoq84bdURAK
 ```
 
 Note: Put your `ram` , `disk` & `pubkey` with your actual Information.Retrieve the public key from your Solana wallet (e.g., Phantom, Backpack) & Replace in `<KEY>` by Solana Address
